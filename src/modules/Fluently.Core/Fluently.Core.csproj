@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Fluently.Core</PackageId>
+    <RootNamespace>Fluently</RootNamespace>
+    <Description>UI-neutral core of Fluently: async, view-model-first navigation with typed parameters, guards and rollback, dialogs that return a result, toasts, theme switching, and source-generated view registration.</Description>
+    <PackageTags>mvvm;navigation;avalonia</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Core" Version="10.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="Fluently.Avalonia" />
+    <InternalsVisibleTo Include="Fluently.Core.UnitTests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Microsoft.Extensions.Logging" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿global using System;
+global using Avalonia;
+global using Avalonia.Controls;
+global using Avalonia.Controls.ApplicationLifetimes;
+global using Avalonia.Data;
+global using Avalonia.Interactivity;
+global using Avalonia.Layout;
+global using Avalonia.Markup.Declarative;
+global using Avalonia.Media;
+global using Avalonia.Themes.Fluent;
+global using FluentAvalonia.UI.Controls;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using Nexus.ViewModels;
+global using Nexus.ViewModels.Pages;
+global using Nexus.Views;
+global using Nexus.Views.Pages;
